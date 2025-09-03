@@ -52,31 +52,38 @@ public class Product implements Serializable {
 	}
 
 	public Long getId() {
-		return id;
+
+        return id;
 	}
 
 	public void setId(Long id) {
-		this.id = id;
+
+        this.id = id;
 	}
 
 	public String getName() {
-		return name;
+
+        return name;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+
+        this.name = name;
 	}
 
 	public String getDescription() {
-		return description;
+
+        return description;
 	}
 
 	public void setDescription(String description) {
-		this.description = description;
+
+        this.description = description;
 	}
 
 	public Double getPrice() {
-		return price;
+
+        return price;
 	}
 
 	public void setPrice(Double price) {
